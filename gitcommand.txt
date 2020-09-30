@@ -13,6 +13,4 @@ git rm --cached <nome do arquivo> - Caso queira deixar de observar o arquivo cas
 git commit -m "MENSAGEM" - Commit deve ser criado com uma mensagem com o proposito do commit que esta sendo 
 executado.
 
-
-
-	
+git log - Para ter as informacoes dos commits e suas mensagem junto com os autores 
