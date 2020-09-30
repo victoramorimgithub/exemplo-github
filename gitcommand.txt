@@ -1,0 +1,18 @@
+git init - Arquivos dentro de uma pasta que deverao esta no repositorio do github, entretanto o repositorio ainda nao tem sido criado. 
+ 	Todas as alteracoes que forem ocorrer dentro dessa pasta o git vai te informat o que tem acontecido.
+
+git status - Comando que mostra os estado dos arquivos
+		On branch master - ainda para ser falado
+		no commits yet - ainda para ser falado
+		Untracked files - arquivos que precisam ser monitorados para que se houver mudanca o status possa 
+	nos avisar, para isso se deve por **git add <nome do arquivo>** ou por **git add .** para adicionar todos
+	os arquivos da pasta.
+
+git rm --cached <nome do arquivo> - Caso queira deixar de observar o arquivo caso haja alteracao. 
+
+git commit -m "MENSAGEM" - Commit deve ser criado com uma mensagem com o proposito do commit que esta sendo 
+executado.
+
+
+
+	
