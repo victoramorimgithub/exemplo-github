@@ -14,3 +14,6 @@ git commit -m "MENSAGEM" - Commit deve ser criado com uma mensagem com o proposi
 executado.
 
 git log - Para ter as informacoes dos commits e suas mensagem junto com os autores 
+
+.gitignore - Arquivo criado para ignorar arquivos que nao precisam ser observados, dentro dele vc deve colocar o nome
+do arquivo
