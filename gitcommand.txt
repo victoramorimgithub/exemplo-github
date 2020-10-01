@@ -17,3 +17,23 @@ git log - Para ter as informacoes dos commits e suas mensagem junto com os autor
 
 .gitignore - Arquivo criado para ignorar arquivos que nao precisam ser observados, dentro dele vc deve colocar o nome
 do arquivo
+
+Repositorio Remoto - Local ou Servidor onde as pessoas possam enviar essas alteracoes e suas buscas.
+
+git init --bare - inicia um repositorio que vai servir como remoto.
+
+
+/*** Como este servidor será um repositório do Git que somente armazenará as alterações, ou seja, 
+não o acessaremos para editar arquivos, por exemplo, usaremos git init --bare, cujo parâmetro indica 
+que este repositório é puro, que contém apenas as alterações dos arquivos, e não uma cópia física de
+cada um dos arquivos. ***/
+
+/***E preciso que a pasta onde contem os arquivos conheca o repositorio remoto, para que por fim 
+essas alteracoes sejam enviadas para essa pasta remota.***
+
+git remote add <nome> <endereco onde esta o repositorio remoto>
+
+git clone <endereco de onde quer clonar> <nome que sera da para a pasta clonada>
+
+git push <nome da maquina> <nome do branch>
+git pull <nome da maquina> <nome do branch>
