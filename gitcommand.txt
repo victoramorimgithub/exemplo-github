@@ -37,3 +37,8 @@ git clone <endereco de onde quer clonar> <nome que sera da para a pasta clonada>
 
 git push <nome da maquina> <nome do branch>
 git pull <nome da maquina> <nome do branch>
+
+git branch <nome da branch> - Quando um colega de trabalho esta trabalhando em um mesmo codigo, normalmente é
+precio que seja criado ramificações para que não haja conflito de no código.
+
+git checkout <nome da branch> - Muda de uma branch para outra
