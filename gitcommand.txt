@@ -53,9 +53,3 @@ o merge e irá realizar apenas um commit.
 
 Caso haja um conflito de merging pois houve uma alteração no mesmo arquivo, é preciso identificar quais linhas irão
 permanecer, esse arquivo então é salvo, adicionado e comitado novamente para então finaliar o merge ou rebase
-
-git checkout -- <nome do arquivo> (git restore <nome do arquivo>) - Volta para o estado alterior enquanto o arquivo tem sido alterado, ele é usado quando o arquivo ainda não tem sido adicionado e comitado, e também quando se há muita alteração do código
-
-git restore --staged <nome do arquivo> (git reset HEAD <nome do arquivo>) - Remove o arquivo alterado que tem sido adicionado e preparado para ser comitado.
-
- 55c5e6127559b28b782fc51fdbd572de46fa8e41
