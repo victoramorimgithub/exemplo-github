@@ -60,6 +60,7 @@ git restore --staged <nome do arquivo> (git reset HEAD <nome do arquivo>) - Remo
 
 git revert <codigo hex do git log do ultimo commit> - Descomita o commit que tem sido realizado
 
-git stash sendo adicionado
-git stash
+git stash - Imagina-se que tenha-mos um primeiro bloco de codigo para ser alterado e eventualmente um segundo bloco de codigo precisa com urgencia ser alterado, desta forma e preciso que vc salve as alteracoes do primeiro bloco para dentro da memoria usando o **stash** e dai assim vc pode alterar a segunda parte, adiciona-la, comita-la e fazer o push.
+
+git stash pop - No momento que tem finalizado o segundo bloco do codigo, vc tera que retornar ao primeiro, utilizando do **pop** e dai entao finalizar o codigo, adicionar, comitar e fazer o push.
 
