@@ -59,3 +59,5 @@ git checkout -- <nome do arquivo> (git restore <nome do arquivo>) - Volta para o
 git restore --staged <nome do arquivo> (git reset HEAD <nome do arquivo>) - Remove o arquivo alterado que tem sido adicionado e preparado para ser comitado.
 
 git revert <codigo hex do git log do ultimo commit> - Descomita o commit que tem sido realizado
+
+git stash sendo adicionado
