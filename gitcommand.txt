@@ -64,3 +64,4 @@ git stash - Imagina-se que tenha-mos um primeiro bloco de codigo para ser altera
 
 git stash pop - No momento que tem finalizado o segundo bloco do codigo, vc tera que retornar ao primeiro, utilizando do **pop** e dai entao finalizar o codigo, adicionar, comitar e fazer o push.
 
+git checkout <hexcode> - A partir disso vc pode navegar entre os commits antigos, porem quando feito alguma alteracao nesse commit e preciso criar uma branch nova, ou a alteracao comitada sera perdida. 
