@@ -42,3 +42,13 @@ git branch <nome da branch> - Quando um colega de trabalho esta trabalhando em u
 precio que seja criado ramificações para que não haja conflito de no código.
 
 git checkout <nome da branch> - Muda de uma branch para outra
+
+git merge <nome da branch que irá se juntar> - Quando o trabalho de uma ramificação é terminado, ela precisa 
+juntar  com a ramificação <master> desta forma é preciso fazer um **git checkout master** e então utilizar 
+do marge coma branch que queria se juntar
+
+git rebase <nome da branch que queria se juntar> - Para se manter uma organização no **git log** é preciso 
+se fazer o rebase, ele irá utilizar da branch master, vai commitar com as commits da branch que precisa fazer 
+o merge e irá realizar apenas um commit.
+
+resolvendo conflito agora dentro do master
