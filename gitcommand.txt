@@ -61,3 +61,5 @@ git restore --staged <nome do arquivo> (git reset HEAD <nome do arquivo>) - Remo
 git revert <codigo hex do git log do ultimo commit> - Descomita o commit que tem sido realizado
 
 git stash sendo adicionado
+git stash
+
