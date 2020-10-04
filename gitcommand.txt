@@ -51,4 +51,4 @@ git rebase <nome da branch que queria se juntar> - Para se manter uma organizaç
 se fazer o rebase, ele irá utilizar da branch master, vai commitar com as commits da branch que precisa fazer 
 o merge e irá realizar apenas um commit.
 
-resolvendo conflito agora dentro do master
+primeira alteracao dentro do local
